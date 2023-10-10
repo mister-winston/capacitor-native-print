@@ -1,0 +1,10 @@
+{
+  "appId": "com.mrwinston.capacitor.print.example",
+  "appName": "capacitor-native-print-example",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

@@ -38,10 +38,11 @@
     "prettier": "prettier \"**/*.{css,html,ts,js,java}\"",
     "swiftlint": "node-swiftlint",
     "docgen": "docgen --api NativePrintPlugin --output-readme README.md --output-json dist/docs.json",
-    "build": "npm run clean && npm run docgen && npm run swc-build && rollup -c rollup.config.js",
+    "build": "npm run clean && npm run docgen && npm run swc-build && npm run types && rollup -c rollup.config.js",
     "clean": "rimraf ./dist",
-    "watch": "npm run swc-build --watch",
-    "swc-build": "swc --out-dir dist --watch src/index.ts",
+    "watch": "npm run swc-build -- --watch",
+    "swc-build": "swc --out-dir dist/esm/ src/",
+    "types": "tsc --emitDeclarationOnly",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {

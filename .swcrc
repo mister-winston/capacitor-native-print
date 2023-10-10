@@ -4,7 +4,10 @@
 		"parser": {
 			"syntax": "typescript"
 		},
-		"target": "es5"
+		"target": "esnext"
+	},
+	"module": {
+		"type": "es6"
 	},
 	"minify": true
 }
