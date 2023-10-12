@@ -109,28 +109,28 @@ class NativePrintPlugin : Plugin() {
             "a8" -> PrintAttributes.MediaSize.ISO_A8
             "a9" -> PrintAttributes.MediaSize.ISO_A9
             "a10" -> PrintAttributes.MediaSize.ISO_A10
-            "B0" -> PrintAttributes.MediaSize.ISO_B0
-            "B1" -> PrintAttributes.MediaSize.ISO_B1
-            "B2" -> PrintAttributes.MediaSize.ISO_B2
-            "B3" -> PrintAttributes.MediaSize.ISO_B3
-            "B4" -> PrintAttributes.MediaSize.ISO_B4
-            "B5" -> PrintAttributes.MediaSize.ISO_B5
-            "B6" -> PrintAttributes.MediaSize.ISO_B6
-            "B7" -> PrintAttributes.MediaSize.ISO_B7
-            "B8" -> PrintAttributes.MediaSize.ISO_B8
-            "B9" -> PrintAttributes.MediaSize.ISO_B9
-            "B10" -> PrintAttributes.MediaSize.ISO_B10
-            "C0" -> PrintAttributes.MediaSize.ISO_C0
-            "C1" -> PrintAttributes.MediaSize.ISO_C1
-            "C2" -> PrintAttributes.MediaSize.ISO_C2
-            "C3" -> PrintAttributes.MediaSize.ISO_C3
-            "C4" -> PrintAttributes.MediaSize.ISO_C4
-            "C5" -> PrintAttributes.MediaSize.ISO_C5
-            "C6" -> PrintAttributes.MediaSize.ISO_C6
-            "C7" -> PrintAttributes.MediaSize.ISO_C7
-            "C8" -> PrintAttributes.MediaSize.ISO_C8
-            "C9" -> PrintAttributes.MediaSize.ISO_C9
-            "C10" -> PrintAttributes.MediaSize.ISO_C10
+            "b0" -> PrintAttributes.MediaSize.ISO_B0
+            "b1" -> PrintAttributes.MediaSize.ISO_B1
+            "b2" -> PrintAttributes.MediaSize.ISO_B2
+            "b3" -> PrintAttributes.MediaSize.ISO_B3
+            "b4" -> PrintAttributes.MediaSize.ISO_B4
+            "b5" -> PrintAttributes.MediaSize.ISO_B5
+            "b6" -> PrintAttributes.MediaSize.ISO_B6
+            "b7" -> PrintAttributes.MediaSize.ISO_B7
+            "b8" -> PrintAttributes.MediaSize.ISO_B8
+            "b9" -> PrintAttributes.MediaSize.ISO_B9
+            "b10" -> PrintAttributes.MediaSize.ISO_B10
+            "c0" -> PrintAttributes.MediaSize.ISO_C0
+            "c1" -> PrintAttributes.MediaSize.ISO_C1
+            "c2" -> PrintAttributes.MediaSize.ISO_C2
+            "c3" -> PrintAttributes.MediaSize.ISO_C3
+            "c4" -> PrintAttributes.MediaSize.ISO_C4
+            "c5" -> PrintAttributes.MediaSize.ISO_C5
+            "c6" -> PrintAttributes.MediaSize.ISO_C6
+            "c7" -> PrintAttributes.MediaSize.ISO_C7
+            "c8" -> PrintAttributes.MediaSize.ISO_C8
+            "c9" -> PrintAttributes.MediaSize.ISO_C9
+            "c10" -> PrintAttributes.MediaSize.ISO_C10
             "govt" -> PrintAttributes.MediaSize.NA_GOVT_LETTER
             "three_by_five" -> PrintAttributes.MediaSize.NA_INDEX_3X5
             "four_by_six" -> PrintAttributes.MediaSize.NA_INDEX_4X6
