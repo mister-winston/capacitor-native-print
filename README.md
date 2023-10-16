@@ -44,17 +44,22 @@ print(options?: PrintOptions | undefined) => any
 
 These settings do nothing on the web
 
-<code>{ /** The name of the printed file */ name: string; /** * Determines if the document should be printed in black and white * @default false * */ monochrome?: boolean; /** * @default <a href="#printorientation">PrintOrientation.Portrait</a> * */ orientation?: <a href="#printorientation">PrintOrientation</a>; /** * @default <a href="#printpagesize">PrintPageSize.A4</a> * */ pageSize?: <a href="#printpagesize">PrintPageSize</a>; }</code>
+<code>{ /** The name of the printed file */ name: string; /** * Determines if the document should be printed in black and white * @default false * */ monochrome?: boolean; /** * @default <a href="#printorientation">PrintOrientation</a>.Portrait * */ orientation?: <a href="#printorientation">PrintOrientation</a>; /** * @default <a href="#printpagesize">PrintPageSize</a>.A4 * */ pageSize?: <a href="#printpagesize">PrintPageSize</a>; }</code>
 
 
 #### PrintResult
 
-<code><a href="#androidprintresult">AndroidPrintResult</a> | <a href="#webprintresult">WebPrintResult</a></code>
+<code><a href="#androidprintresult">AndroidPrintResult</a> | <a href="#iosprintresult">IOSPrintResult</a> | <a href="#webprintresult">WebPrintResult</a></code>
 
 
 #### AndroidPrintResult
 
-<code>{ isBlocked: boolean; isCancelled: boolean; isCompleted: boolean; isFailed: boolean; isQueued: boolean; isStarted: boolean; copies: number; printerId: string; label: string; creationTime: number; state: number; pages?: { start: number; end: number }[]; }</code>
+<code>{ isBlocked: boolean; isCancelled: boolean; isCompleted: boolean; isFailed: boolean; isQueued: boolean; isStarted: boolean; copies: number; printerId: string; label: string; creationTime: number; state: number; pages?: { start: number; end: number }[]; }</code>
+
+
+#### IOSPrintResult
+
+<code>{ printed: boolean; }</code>
 
 
 #### WebPrintResult
