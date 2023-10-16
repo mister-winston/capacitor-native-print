@@ -83,9 +83,13 @@ export type AndroidPrintResult = {
   pages?: { start: number; end: number }[];
 };
 
+export type IOSPrintResult = {
+  printed: boolean;
+}
+
 export type WebPrintResult = void;
 
-export type PrintResult = AndroidPrintResult | WebPrintResult;
+export type PrintResult = AndroidPrintResult | IOSPrintResult | WebPrintResult;
 
 export interface NativePrintPlugin {
   print(options?: PrintOptions): Promise<PrintResult>;

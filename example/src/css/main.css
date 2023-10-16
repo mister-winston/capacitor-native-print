@@ -202,10 +202,22 @@ h4 {
 
 body {
   gap: 16px;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+
+@media print {
+  @page {
+    size: A4;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+  }
 }
 
 button {

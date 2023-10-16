@@ -10,7 +10,7 @@ if (!printButton || !errorElement) {
 printButton.onclick = () => {
   printButton.setAttribute('disabled', '');
   errorElement.style.display = 'none';
-  NativePrint.print()
+  NativePrint.print({ name: "Document" })
     .catch(err => {
       console.error(err);
       errorElement.innerText = err.message;
