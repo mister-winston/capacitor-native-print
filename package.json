@@ -1,6 +1,6 @@
 {
-  "name": "capacitor-native-print",
-  "version": "0.0.2",
+  "name": "@mrwinston/capacitor-native-print",
+  "version": "0.0.1",
   "description": "Print the current webview using the native UI",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,14 +13,14 @@
     "ios/Plugin/",
     "CapacitorNativePrint.podspec"
   ],
-  "author": "jdgjsag67251",
+  "author": "@mrwinston",
   "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jdgjsag67251/capacitor-native-print.git"
+    "url": "git+https://github.com/mister-winston/capacitor-native-print.git"
   },
   "bugs": {
-    "url": "https://github.com/jdgjsag67251/capacitor-native-print/issues"
+    "url": "https://github.com/mister-winston/capacitor-native-print/issues"
   },
   "keywords": [
     "capacitor",
