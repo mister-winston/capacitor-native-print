@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorNativePrint.podspec"
+    "MrwinstonCapacitorNativePrint.podspec"
   ],
   "author": "@mrwinston",
   "license": "GPL-3.0-or-later",
