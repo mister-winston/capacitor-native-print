@@ -42,9 +42,7 @@ print(options?: PrintOptions | undefined) => any
 
 #### PrintOptions
 
-These settings do nothing on the web
-
-<code>{ /** The name of the printed file */ name: string; /** * Determines if the document should be printed in black and white * @default false * */ monochrome?: boolean; /** * @default <a href="#printorientation">PrintOrientation</a>.Portrait * */ orientation?: <a href="#printorientation">PrintOrientation</a>; /** * @default <a href="#printpagesize">PrintPageSize</a>.A4 * */ pageSize?: <a href="#printpagesize">PrintPageSize</a>; }</code>
+<code>{ name: string; monochrome?: boolean; orientation?: <a href="#printorientation">PrintOrientation</a>; pageSize?: <a href="#printpagesize">PrintPageSize</a>; }</code>
 
 
 #### PrintResult
