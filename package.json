@@ -1,6 +1,6 @@
 {
   "name": "@mrwinston/capacitor-native-print",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Print the current webview using the native UI",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
